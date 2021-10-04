@@ -9,7 +9,7 @@ import {
 
 } from '../types'
 
-export type DeclarationsByLine = Record<number, Declaration[] | undefined>
+export type DeclarationsByLine = Record<number|string, Declaration[]>
 
 /**
  * Parses scss/css document and returns map of all identifiers by lines.
