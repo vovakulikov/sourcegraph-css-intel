@@ -1,0 +1,88 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sourcegraph/sourcegraph/main/client/shared/src/schema/extension.schema.json",
+  "name": "css-intel",
+  "icon": "data:image/png;base64,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",
+  "publisher": "vovakulikov",
+  "displayName": "CSS Intel",
+  "description": "Provides CSS rules MDN documentation, highlights and provides preview color and css variables inline search",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovakulikov/sourcegraph-css-intel"
+  },
+  "categories": [
+    "Linters",
+    "Programming languages"
+  ],
+  "tags": [],
+  "activationEvents": [
+   "*"
+  ],
+  "targets": {
+    "default": {
+      "includeNodeModules": true
+    },
+    "main": false
+  },
+  "wip": true,
+  "contributes": {
+    "actions": [],
+    "menus": {
+      "editor/title": [],
+      "commandPalette": []
+    },
+    "configuration": {}
+  },
+  "main": "dist/css-intel.js",
+  "scripts": {
+    "eslint": "eslint 'src/**/*.ts'",
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "parcel build src/css-intel.ts --no-source-maps",
+    "symlink-package": "mkdirp dist && lnfs ./package.json ./dist/package.json",
+    "serve": "yarn run symlink-package && parcel serve --no-hmr src/css-intel.ts",
+    "watch:typecheck": "tsc -p tsconfig.json -w",
+    "watch:build": "tsc -p tsconfig.dist.json -w",
+    "sourcegraph:prepublish": "yarn run typecheck && yarn run build",
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha"
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Edge versions",
+    "last 1 Safari versions"
+  ],
+  "mocha": {
+    "recursive": true,
+    "extensions": "ts",
+    "timeout": 200,
+    "spec": "src/**/*.test.ts",
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ]
+  },
+  "devDependencies": {
+    "@sourcegraph/eslint-config": "^0.22.0",
+    "@sourcegraph/tsconfig": "^4.0.1",
+    "@types/lodash": "^4.14.175",
+    "@types/mocha": "^8.2.0",
+    "@types/mock-require": "^2.0.0",
+    "@types/shelljs": "^0.8.8",
+    "eslint": "^7.20.0",
+    "lnfs-cli": "^2.1.0",
+    "mkdirp": "^1.0.4",
+    "mocha": "^8.3.0",
+    "mock-require": "^3.0.3",
+    "parcel": "^2.0.0",
+    "shelljs": "^0.8.4",
+    "source-map-support": "^0.5.19",
+    "sourcegraph": "^25.3.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "postcss": "^8.3.8",
+    "postcss-scss": "^4.0.1",
+    "tagged-template-noop": "^2.1.1"
+  }
+}
