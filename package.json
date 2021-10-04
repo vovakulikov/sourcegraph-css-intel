@@ -37,7 +37,7 @@
   "scripts": {
     "eslint": "eslint 'src/**/*.ts'",
     "typecheck": "tsc -p tsconfig.json",
-    "build": "parcel build --out-file dist/css-intel.js src/css-intel.ts --no-source-maps",
+    "build": "parcel build --out-file dist/css-intel.js src/css-intel.ts --no-source-maps --no-minify",
     "symlink-package": "mkdirp dist && lnfs ./package.json ./dist/package.json",
     "serve": "yarn run symlink-package && parcel serve --no-hmr --no-source-maps --out-file dist/css-intel.js src/css-intel.ts",
     "watch:typecheck": "tsc -p tsconfig.json -w",

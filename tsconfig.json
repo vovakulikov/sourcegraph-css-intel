@@ -1,9 +1,12 @@
 {
   "extends": "@sourcegraph/tsconfig",
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": [
+      "ES2021",
+      "dom"
+    ],
     "sourceMap": true,
     "declaration": true,
     "outDir": "dist",
@@ -16,10 +19,10 @@
         "tag": "gql",
         "schema": {
           "http": {
-            "url": "https://sourcegraph.com/.api/graphql",
-          },
-        },
-      },
-    ],
+            "url": "https://sourcegraph.com/.api/graphql"
+          }
+        }
+      }
+    ]
   },
 }
